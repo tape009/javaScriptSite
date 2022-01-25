@@ -72,6 +72,10 @@ footer
 {
 	background:rgba(255, 255, 255, .75);
 }
+.battleships
+{
+	text-align: center;
+}
 
 @media screen and (max-width: 992px)
 {
