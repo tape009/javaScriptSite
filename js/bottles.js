@@ -7,11 +7,11 @@ while (count > 0 ){
     count = count - 1
     if(count  >0 )
     {
-        document.write(count + " " +words +" of beer on the wall <br> ")
+        document.write(count + " " +words +" of pop on the wall <br> ")
 
     }
     else
     {
-        document.write("No more " + words + " of beer on the wall <br>");
+        document.write("No more " + words + " of pop on the wall <br>");
     }
 }
