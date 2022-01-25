@@ -20,10 +20,10 @@ Name = prompt("What your name or sir name ?")
 
 while(isSunk == false)
 {
-    guess = prompt("Take aim captin "+ Name +" (enter a number 0 - 6)");
+    guess = prompt("Take aim captain "+ Name +" (enter a number 0 - 6)");
     if (guess < 0 || guess >6 || null)
     {
-        alert("captin " + Name +" shell can't go that far plese chose a diffent place ")
+        alert("captain " + Name +" shell can't go that far please pick a diffent place ")
     }
     else
     {
@@ -36,7 +36,7 @@ while(isSunk == false)
             hits ++
             if(hits == 3){
                 isSunk = true
-                alert("You sank my BattleShip!") 
+                alert("You sank my battleship!") 
             }
         }
         else
@@ -48,8 +48,8 @@ while(isSunk == false)
 }
 
 
-    var stats = "captin "+ Name + " you took " + guesses +" shot  to sink the battleship, "
-    +"whic mean your shot accuracy was "+ (3/guesses);
+    var stats = "captain "+ Name + " you took " + guesses +" shot to sink the battleship, "
+    +"which mean your shot accuracy was "+ (3/guesses);
     FinalText +=stats+"<br>"
     if(guesses == 3 )
     {
