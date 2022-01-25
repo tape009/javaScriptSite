@@ -51,5 +51,17 @@ while(isSunk == false)
     var stats = "captin "+ Name + " you took " + guesses +" shot  to sink the battleship, "
     +"whic mean your shot accuracy was "+ (3/guesses);
     FinalText +=stats+"<br>"
+    if(guesses == 3 )
+    {
+        FinalText += "Your shot is amzaing."
+    }
+    if(guesses == 4 || guesses == 5 || guesses ==6)
+    {
+        FinalText += "your okay shot "
+    }
+    if (guesses >= 10)
+    {
+        FinalText += " HOW "
+    }
     document.getElementById("battlelog").innerHTML = FinalText
 }
