@@ -36,6 +36,13 @@ function clunk(times) {
     clunkCounter = clunkCounter + 1;
    }
    var clunkCounter = 0;
-   thingamajig(1);
+var amountThrew = 0 
+   for(i = 0; i <= 7;i++)
+   {
+       thingamajig(amountThrew)
+       amountThrew ++ 
+
+   }
+   
    console.log(clunkCounter);
    document.writeln(clunkCounter);
