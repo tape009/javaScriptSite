@@ -37,7 +37,7 @@ function clunk(times) {
    }
    var clunkCounter = 0;
 var amountThrew = 0 
-   for(i = 0; i <= 7;i++)
+   for(i = 0; i < 7;i++)
    {
        thingamajig(amountThrew)
        amountThrew ++ 
