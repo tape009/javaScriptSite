@@ -59,7 +59,7 @@ var fiat = {
             };
 fiat.start();
 fiat.drive();
-fiat.addFuel(2);
+fiat.addFuel(3);
 fiat.start();
 fiat.drive();
 fiat.drive();
