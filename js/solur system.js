@@ -1,5 +1,6 @@
-
-    function shoot(){
+var change = 0
+    
+   function shoot(){
     var planet = document.getElementById("greenplanet");
     planet.innerHTML = "Red Alert: hit by phaser fire!";
     planet.setAttribute("class", "redtext");
@@ -11,10 +12,17 @@
     planet.setAttribute("class", "redtext");
     document.getElementById("red").src="red2.png";
     }
-    function shootblue(){
+    function shootblue(change){
+    
+        
     var planet = document.getElementById("blueplanet");
     planet.innerHTML = "Red Alert: hit by phaser fire!";
     planet.setAttribute("class", "redtext");
     document.getElementById("blueplant1").src="blue2.png";
+  
+    
+   
     }
+   
+   
     
