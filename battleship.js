@@ -96,7 +96,7 @@ function parseGuess(guess) {
 
     }
    }
-   model.fire("53");
+
   
  
     
